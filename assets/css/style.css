@@ -42,7 +42,7 @@ header nav ul li {
     margin-left: 25px;
 }
 a {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     text-decoration: none;
 }
 p {
@@ -83,10 +83,26 @@ p {
     padding: 0 35px 70px 20px;
     float: right;
     width: 65%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .address-detail {
     font-size: 16px;
     padding: 0 35px 70px 20px;
     float: right;
     width: 65%;
+}
+.work-element {
+    position: relative;
+    text-align: left;
+}
+img {
+    border: 5px solid var(--tertiary-color);
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ffffff;
+    background-color: var(--tertiary-color);
 }
