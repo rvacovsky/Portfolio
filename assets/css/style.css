@@ -60,7 +60,7 @@ section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 60px; 
+    padding: 20px; 
 }
 article {
     flex: 1 200px;
@@ -107,11 +107,6 @@ article:nth-of-type(3) {
     border-style: 0;
     flex: 0 0 400px
 }
-.address-detail {
-    font-size: 22px;
-    padding: 0 35px 70px 20px;
-
-}
 img {
     border: 5px solid var(--tertiary-color);
 }
@@ -123,6 +118,13 @@ img {
     font-size: 12px;
     color: #ffffff;
     background-color: var(--tertiary-color);
+}
+footer {
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 /*Utilities*/
 .flex-column {
