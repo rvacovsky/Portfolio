@@ -16,7 +16,6 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--primary-color);
-    color: #ffffff;
 }
 .header-accent {
     background-color: var(--secondary-color);
@@ -46,7 +45,7 @@ a {
     text-decoration: none;
 }
 p {
-    font-size: 16px;
+    font-size: 24px;
     padding: 0 35px 0 20px;
     float: right;
     width: 65%;
@@ -60,7 +59,8 @@ p {
     border-right: 5px solid;
     margin-right: 35px;
     color: var(--primary-color);
-    text-align: center;
+    text-align: right;
+    padding: 30px;
     width:25%;
   }
 .primary-border {
@@ -79,12 +79,11 @@ p {
     color: var(--primary-color);
 }
 .work-detail {
-    font-size: 16px;
+    flex: 4;
     padding: 0 35px 70px 20px;
-    float: right;
-    width: 65%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .address-detail {
     font-size: 16px;
@@ -92,9 +91,13 @@ p {
     float: right;
     width: 65%;
 }
+section {
+    padding: 60px; 
+}
 .work-element {
     position: relative;
     text-align: left;
+    margin: 10px;
 }
 img {
     border: 5px solid var(--tertiary-color);
@@ -105,4 +108,7 @@ img {
     left: 16px;
     color: #ffffff;
     background-color: var(--tertiary-color);
+}
+.flex-column {
+    display: flex;
 }
