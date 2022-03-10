@@ -95,6 +95,7 @@ img {
 }
 .bottom-left {
     position: absolute;
+    padding: 5px;
     bottom: 16px;
     left: 1px;
     text-align: left;
