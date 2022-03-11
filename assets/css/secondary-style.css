@@ -16,6 +16,6 @@
     margin: 15px 20px;
 }
 .secondary-content li {
-    color: #39a6b2;
+    color: var(--primary-color);
     margin: 10px 0;
 }
