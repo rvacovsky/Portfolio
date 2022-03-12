@@ -20,14 +20,14 @@
 }
 .secondary-content h4 {
     font-size: 25px;
-    margin: 20px 0;
+    margin: 18px 0;
     display: flex;
     justify-content: space-between;
     font-style: italic;
 }
 .experience-item {
     font-size: 25px;
-    margin: 20px 0;
+    margin: 18px 0;
     display: flex;
     justify-content: flex-start;
 }
@@ -44,8 +44,8 @@
     margin: 10px 0;
 }
 .secondary-content h5 {
-    font-size: 18px;
-    margin: 20px 0;
+    font-size: 16px;
+    margin: 10px 0;
 }
 .flex-row {
     display: flex;
