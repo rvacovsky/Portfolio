@@ -57,7 +57,6 @@ p {
 .profile-pic {
     position: relative;
     margin: 12px;
-    width: fit-content;
 }
 section {
     display: flex;
@@ -116,10 +115,13 @@ img {
       padding-bottom: 0;
       justify-content: center;
       position: relative;
+      flex-direction: column;
+      text-align: center;
     }
     header h1 {
       width: 100%;
       text-align: center;
+      margin: 5px
     }
     header nav ul {
       margin-top: 20px;
@@ -129,40 +131,43 @@ img {
     header nav ul li a {
       font-size: 20px;
     }
-    section {
-      width: 80%;
-    }
     p {
         flex: 2 100%;
-        text-align: center;
-        justify-content: center;
+        text-align: left;
+        justify-content: left;
     }
-  }
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+}
 @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
+      text-align: center;
+    }
+    .section-detail {
+        flex-direction: column;
+    }
+    .section-title {
+        font-size: 48px;
+        text-align: center;
+        flex-direction: column;
+    }
+    p {
+        flex-direction: column;
+        justify-content: center;
+        display: contents;
     }
     .profile-pic {
-        width: 50%;
+        justify-content: center;
+        margin: 40px;
     }
-    .work-items {
+    .item-detail {
       flex: 2 100%;
       text-align: left;
       justify-content: left;
     }
-    .item-detail {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-    }
-    .item-detail-img {
+    .item-detail img {
       flex: 0 32%;
       margin-right: 0;
       margin-top: 15px;
       margin-bottom: 15px;
     }
-    .bottom-left {
-      flex: 100%;  
-    }
-  }
+}
