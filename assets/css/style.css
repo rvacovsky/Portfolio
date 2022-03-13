@@ -8,7 +8,11 @@
     margin: 0;
     padding: 0;
 }
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
     background-color: var(--secondary-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -19,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    overflow: hidden;
 }
 header h1 {
     color: var(--secondary-color);
@@ -149,25 +154,37 @@ img {
         font-size: 48px;
         text-align: center;
         flex-direction: column;
+        border-bottom: 5px solid;
+        border-right: none;
+        padding: 15px;
+        margin: 0;
     }
     p {
         flex-direction: column;
         justify-content: center;
         display: contents;
+        padding: 10px
     }
     .profile-pic {
         justify-content: center;
-        margin: 40px;
     }
     .item-detail {
       flex: 2 100%;
       text-align: left;
       justify-content: left;
+      display: flex;
     }
     .item-detail img {
       flex: 0 32%;
       margin-right: 0;
       margin-top: 15px;
       margin-bottom: 15px;
+      width: 90%;
+    }
+    a {
+      flex-direction: column;
+      justify-content: center;
+      display: contents;
+      padding: 10px
     }
 }
